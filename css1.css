@@ -1,0 +1,6 @@
+
+body h1+p.c1{
+    background-color: crimson;
+    font-style:italic;
+    padding: 5px;
+}
