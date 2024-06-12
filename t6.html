@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    .container{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+grid-gap:20px;
+grid-auto-columns: minmax(20px,1fr);
+
+    }
+    .items{
+        background-color: antiquewhite;
+        border: 3px solid red;
+border-radius:5px;
+    }
+    #item-1{
+        grid-column-start:1;
+        grid-column-end:3;
+        grid-row-start:1;
+        grid-row-end:3;
+    }
+    .subitem1{
+        background-color: rgb(225, 215, 250);
+        border: 3px solid red;
+border-radius:5px;
+     } 
+     .item-1-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+     
+     }
+     </style>
+</head>
+<body>
+    <div class="container">
+    <div class="items item-1-container" id="item-1">
+<div class="subitem1">a</div>
+<div class="subitem1">b</div>
+<div class="subitem1">c</div>
+<div class="subitem1">d</div>
+</div>
+    <div class="items">2</div>
+    <div class="items">3</div>    
+    <div class="items">4</div>
+<div class="items">5</div>
+
+</div>
+
+</body>
+</html>

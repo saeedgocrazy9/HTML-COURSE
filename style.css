@@ -1,0 +1,155 @@
+.container{
+    display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-gap:5px;
+column-width: 50%;
+
+min-height: auto;
+max-height:auto;
+padding: 100px;
+
+}
+.items{
+border:none;
+padding: 12px 10px;
+}
+#item1{
+ grid-column-start: 1;
+ grid-column-end:3;
+ grid-row-start:1;
+ grid-row-end:3; 
+
+
+}
+#item3{
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start: 3;
+  grid-row-end:4;
+}
+#item6{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: 3;
+    grid-row-end:4;
+  }
+  #item4{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 3;
+    grid-row-end:4;
+  }
+  #item5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  #item3 img{
+max-width: 100%;
+height: auto;  
+}
+.container2{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr  1fr;
+    grid-gap:10px;
+    border: 10px;
+  border-radius: 10px;
+  background-color:whitesmoke;
+    border-color: aquamarine;
+}
+.items3{
+    background-color:whitesmoke;
+    
+}
+.span1{
+  border:2px solid black;
+border-width: 3px;
+max-height: min-content;
+font-style:oblique;
+ background-color: black;
+ -webkit-text-fill-color:white  ;
+ border-radius: 12px;
+font-size: small;
+}
+.flex-container{
+  display:flex;
+  justify-content:center;
+  flex-grow: 10px;
+flex-direction: row-reverse;
+}
+.f1{
+
+background-color: white;
+}
+.flex-container2{
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 30px;
+}
+.f2{
+  height: 70px;;
+  width: 900px;
+
+}
+.container3{
+ display: flex;
+
+flex-wrap: wrap;
+margin-top: 100px;
+padding-left: 400px;
+}
+.f4{
+  border:5px;
+  border-color:white;
+border-radius: 5px;
+
+
+  color: aliceblue;
+  flex-basis: 300px;
+}
+table{
+  border:2px solid black;
+  align-items: center;
+}
+.container5{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  align-items: center;
+  
+  width:600px;
+  margin-left: 30%;
+min-height: auto;
+max-height: auto;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  opacity:0.40;
+  background-color: gray;
+
+}
+input[type=submit]{
+  border:none;
+  color:white;
+  padding:12px 46%;
+  background-color: orange;
+text-decoration-color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style:serif;
+font-size: 100%;
+font-weight: bold;
+}
+textarea{
+  background-color: grey;
+  opacity: 0.80;
+  color:white;
+  text-transform: capitalize;
+  text-decoration-color: white;
+
+}
